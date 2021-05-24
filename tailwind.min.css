@@ -1,0 +1,76 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}
+body{margin:0;}
+a{background-color:transparent}
+strong{font-weight:bolder}
+img{border-style:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+figure,p{margin:0}
+html{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";line-height:1.5}
+*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e2e8f0}
+img{border-style:solid}
+a{color:inherit;text-decoration:inherit}
+img{display:block;vertical-align:middle}
+img{max-width:100%;height:auto}
+.th-inline-block{display:inline-block}
+.th-justify-between{justify-content:space-between}
+.th-h-full{height:100%}
+.th-leading-none{line-height:1}
+.th-m-auto{margin:auto}
+.th-mr-2{margin-right:.5rem}
+.th-p-4{padding:1rem}
+.th-text-center{text-align:center}
+.th-antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.th-w-full{width:100%}
+html{scroll-behavior:smooth}
+#th-page{display:flex;flex-direction:column;position:relative;z-index:10;background-color:transparent !important;background-image:none !important}
+#th-page h1{margin:0}
+.th-content-1{align-items:center;justify-content:flex-start}
+h1{font-size:36px}
+h1{line-height:1.1}
+img{display:inline-block}
+.th-background{background-size:contain;background-repeat:no-repeat;background-position:center top;background-attachment:fixed;min-height:100%}
+.th-button:hover{-webkit-filter:brightness(90%);filter:brightness(90%);transition:.3s}
+@media(max-width:600px){.th-spacer{height:1vh !important}
+.th-button-wrapper,.th-image-wrapper,.th-text-wrapper{text-align:center !important;justify-content:center !important}
+.th-el-section,.th-el-row,.th-el-col{padding:5px !important}
+.th-w-full{width:100% !important}
+}
+@media(min-width:640px){.sm\:th-flex{display:flex}
+}
+#th-page {
+    color: #3f4448;
+  }
+  #th-page .th-header-tag-h1,
+  #th-page .th-header-tag-h2,
+  #th-page .th-header-tag-h3,
+  #th-page .th-header-tag-h4,
+  #th-page .th-header-tag-h5,
+  #th-page .th-header-tag-h6 {
+    color: #3f4448;
+  }
+  #th-page h1,
+  #th-page h2,
+  #th-page h3,
+  #th-page h4,
+  #th-page h5,
+  #th-page h6 {
+    color: #3f4448;
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: normal;
+  }
+  #th-page a {
+    color: #44bd97;
+  }
+  #th-page a:hover {
+    color: #369879;
+  }
+  #th-page .btn {
+    background-color: #44bd97;
+  }
+  body {
+    background-color: white;
+    background-image: url("./header_small_orange.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
